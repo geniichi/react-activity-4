@@ -1,0 +1,44 @@
+main {
+    background-color:#5c6366;
+    padding-bottom:50px;
+}
+.carousel {
+    width: 90%;
+    height: 32rem;
+    margin:10px auto 0 auto;
+    padding-bottom:50px;
+  }
+.car-title {
+    text-align:center;
+    margin:0 auto;
+    color:#3788cb;
+}
+.d-block {
+    height:32rem;
+}
+#car-description {color:#fff;margin-top:20px;}
+
+@media(max-width:960px) {
+    .car-title {font-size:4vw;}
+    .carousel{height:23rem;}
+    .d-block {height:23rem;}
+    #car-description {font-size:15px;}
+}
+@media(max-width:770px) {
+    .car-title {font-size:4vw;}
+    .carousel{height:20rem;}
+    .d-block {height:20rem;}
+}
+@media(max-width:630px) {
+    #car-description {font-size:13px;}
+}
+@media(max-width:530px) {
+    .car-title {font-size:4vw;}
+    .carousel{height:17rem;}
+    .d-block {height:17rem;}
+}
+@media(max-width:370px) {
+    .car-title {font-size:4vw;}
+    .carousel{height:12rem;}
+    .d-block {height:12rem;}
+}

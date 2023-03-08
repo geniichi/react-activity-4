@@ -1,0 +1,22 @@
+#poem-container p {
+    color:#fff;
+    font-size:20px;
+    font-style: italic;
+    line-height: 50px;
+}
+
+@media(max-width:960px) {
+    #poem-container p {font-size:19px;line-height:45px;}
+}
+@media(max-width:770px) {
+    #poem-container p {font-size:17px;line-height:40px;}
+}
+@media(max-width:630px) {
+    #poem-container p {font-size:15px;line-height:35px;}
+}
+@media(max-width:530px) {
+    #poem-container p {font-size:13px;line-height:30px;}
+}
+@media(max-width:370px) {
+    #poem-container p {font-size:11px;line-height:25px;}
+}
